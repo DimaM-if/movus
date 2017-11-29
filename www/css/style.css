@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	
+}
+body{
+	text-align: center;
+}
+a[href^="tel:"]{
+	text-decoration: none;
+}
+.clearfix:after,.clearfix:before{
+  display:table;
+  width:100%;
+  content:'';
+  clear:both;
+   }
+
+.wrapper{
+	padding: 0 10px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+.header-top{
+	background: #3f4e86;
+	border-bottom: 1px solid #fff;
+}
+.header-top a{
+	display: block;
+}
+.header-top span{
+	color: #fff;
+}
+
+.header-top a{
+	
+	color: #6983b3;
+	
+}
+
+.heder-bottom a{
+		text-decoration: none;
+}
+
+|
+
+.header-bottom{
+	text-align: center;
+	position: relative;
+	
+	width: 100%;
+	
+}
+.header-bottom_item{
+
+	background: #3f4e86;
+}
+.header-bottom span{
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+
+	
+}
+.header-bottom_item_text{
+	text-align: left;
+	display: inline-block;
+	margin-top: -20px;
+	position: relative;
+	top:-5px;
+	vertical-align: middle;
+	line-height: 15px;
+	margin-left: 10px;
+	
+}
+
+.header_logo {
+background: #ededed;
+
+}
+
+.sidebar a {
+text-decoration: none;
+font-size: 13px;
+display: block;
+padding: 15px;
+background: #e4e5e9;
+}
+.sidebar ul{
+	list-style: none;
+}
+.sidebar ul li{
+	
+	border-bottom: 2px solid #d7d7d7;
+	margin-bottom: 1px;
+	font-size: 13px;
+	color: #000;
+}
+
+
+
+.sidebar a:hover{
+	background: blue;
+	color: #fff;
+}
+.nav-drop-li{
+	position: relative;
+}
+
+
+
+.nav-drop-li-sub{
+	position: absolute;
+	display:block;
+	top: 100%;
+	z-index: 1000;
+	left: 25%;
+	margin-left: -25%
+
+
+}
+
+
+.nav-drop-li:hover .nav-drop-li-sub{
+	display: block;
+
+}
+
+.info-client{
+	text-align: center;
+}
+.info-client-item{
+	padding: 20px 0;
+
+	background: #3f4e86;
+	height: 140px;
+	margin: 20px;
+	color: #fff;
+
+	text-align: center;
+}
+
+.info-client-item-text{
+	display: block;
+}
+.footer{
+	border-top: 1px solid #000;
+}
+
+.footer span{
+	display: block;
+}
+
+.hide-from-mobile{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.icon{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/sprite-icon.png);
+	position: relative;
+}
+
+.icon_exp{
+	background-position: -6px -2px;
+}
+
+.icon_method{
+	background-position: -48px -6px;
+}
+.icon_individual{
+	background-position: -94px -2px;
+	height: 41px;
+	width: 30px;
+	}
+
+.icon_once{
+	background-position: -5px -43px;
+    height: 44px;
+    width: 38px;
+}
+
+.icon_time-fast{
+	background-position: -62px -47px;
+}
+
+.icon_dialog{
+	background-position: -130px -46px;
+}
+
+.icon_result{
+	background-position: -177px -49px;
+}
+
+.icon_chose{
+	background-position: -227px -49px;
+}
+
+.icon_time-economy{
+	background-position: -291px -46px;
+	width: 43px;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+
+}
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 900px) {
+
+}
+@media only screen and (min-width: 1100px) {
+
+}
